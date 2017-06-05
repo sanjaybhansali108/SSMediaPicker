@@ -1,5 +1,5 @@
 # SSMediaPicker
-SSMediaPicker Helper class help to take image and video easily without writing number of code.
+SSMediaPickerHelper class helps you to take image and video easily without writing number of code. This class automatically present the action sheet as per the device and simulator.
 
 Just copy the SSMediaPickerHelper Class into your project.
 
