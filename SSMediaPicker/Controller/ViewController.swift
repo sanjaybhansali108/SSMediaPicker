@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //MARK: - Button Action
+    //MARK: - Button Actions
     @IBAction func buttonSelectVideo(_ sender: UIButton) {
         ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
             
