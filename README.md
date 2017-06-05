@@ -11,13 +11,13 @@ and then just initialise it as per your requirement.
 # Example
 # For Selecting an Image From Gallary or Camera
 
-ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
+            ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
             
-if image != nil {
-   self.imageView.image = image
-}
-   self.buttonPlay.isHidden = true
-}, videoCallback: nil)
+            if image != nil {
+            self.imageView.image = image
+            }
+            self.buttonPlay.isHidden = true
+            }, videoCallback: nil)
 
 
 # For Selecting a Video From Gallary or Camera
