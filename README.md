@@ -11,7 +11,7 @@ and then just initialise it as per your requirement.
 # Example
 For Selecting an Image From Gallary or Camera
 
-ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
+            ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
             
             if image != nil {
                 self.imageView.image = image
@@ -22,7 +22,7 @@ ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: fals
 
 For Selecting a Video From Gallary or Camera
 
-ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
+            ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
             
             if url != nil {
                 self.imageView.image = self.thumbnailForVideoAtURL(url: url!)
