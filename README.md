@@ -9,7 +9,7 @@ var ssMediaPickerHelper : SSMediaPickerHelper?
 and then just initialise it as per your requirement.
 
 # Example
-## For Selecting an Image From Gallary or Camera
+# For Selecting an Image From Gallary or Camera
 
 ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
             
@@ -20,7 +20,7 @@ ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: fals
         }, videoCallback: nil)
 
 
-## For Selecting a Video From Gallary or Camera
+# For Selecting a Video From Gallary or Camera
 
 ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
             
