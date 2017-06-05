@@ -9,25 +9,28 @@ var ssMediaPickerHelper : SSMediaPickerHelper?
 and then just initialise it as per your requirement.
 
 # Example
-
-# For Selecting an Image From Gallary or Camera
+## For Selecting an Image From Gallary or Camera
 ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
             
-  if image != nil {
-    self.imageView.image = image
-  }
-  self.buttonPlay.isHidden = true
-}, videoCallback: nil)
+            if image != nil {
+                self.imageView.image = image
+            }
+            self.buttonPlay.isHidden = true
+        }, videoCallback: nil)
 
 
-# For Selecting a Video From Gallary or Camera
+## For Selecting a Video From Gallary or Camera
 ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
-  if url != nil {
-    self.imageView.image = self.thumbnailForVideoAtURL(url: url!)
-    self.videoURL = url!
-    self.label.text = url?.absoluteString
-  }
-    self.buttonPlay.isHidden = false
-})
+            
+            if url != nil {
+                self.imageView.image = self.thumbnailForVideoAtURL(url: url!)
+                self.videoURL = url!
+                self.label.text = url?.absoluteString
+            }
+            
+            self.buttonPlay.isHidden = false
+        })
 
-You can also this with below Preview Screens..
+
+Thank You.
+Sanjay Shah
