@@ -21,9 +21,10 @@ and then just initialise it as per your where you want actionsheet picker.
 ```
 
 ### ScreenShots
-(https://drive.google.com/open?id=0B-B09f6zPznFQWN0RDRmN2RIdHM)
-(https://drive.google.com/open?id=0B-B09f6zPznFeFFzZm5rWjdfTkU)
-(https://drive.google.com/open?id=0B-B09f6zPznFYkpWWkRxcU9xR2c)
+
+|  ![1](https://drive.google.com/open?id=0B-B09f6zPznFQWN0RDRmN2RIdHM)    |  ![2](https://drive.google.com/open?id=0B-B09f6zPznFeFFzZm5rWjdfTkU)  |  ![3](https://drive.google.com/open?id=0B-B09f6zPznFYkpWWkRxcU9xR2c)  |
+| ------------- | ------------- | ------------- | ------------- |
+
 
 # For Selecting a Video From Gallary or Camera
 
