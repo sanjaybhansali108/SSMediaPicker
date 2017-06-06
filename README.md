@@ -22,10 +22,10 @@ and then just initialise it as per your where you want actionsheet picker.
 
 ### ScreenShots
 
-|  ![1](https://drive.google.com/open?id=0B-B09f6zPznFQWN0RDRmN2RIdHM)    |  ![2](https://drive.google.com/open?id=0B-B09f6zPznFeFFzZm5rWjdfTkU)  |  ![3](https://drive.google.com/open?id=0B-B09f6zPznFYkpWWkRxcU9xR2c)  |
-| ------------- | ------------- | ------------- | ------------- |
-
-
+```(https://drive.google.com/open?id=0B-B09f6zPznFQWN0RDRmN2RIdHM)
+(https://drive.google.com/open?id=0B-B09f6zPznFeFFzZm5rWjdfTkU)
+(https://drive.google.com/open?id=0B-B09f6zPznFYkpWWkRxcU9xR2c)
+```
 # For Selecting a Video From Gallary or Camera
 
  ``` ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
@@ -40,10 +40,11 @@ and then just initialise it as per your where you want actionsheet picker.
             })
 ```
 ### ScreenShots
-(https://drive.google.com/open?id=0B-B09f6zPznFSVZhRmpXYTdDSmc)
+
+```(https://drive.google.com/open?id=0B-B09f6zPznFSVZhRmpXYTdDSmc)
 (https://drive.google.com/open?id=0B-B09f6zPznFdE5JTlQ0U19BeWM)
 (https://drive.google.com/open?id=0B-B09f6zPznFc1Vud0cwNndqeTQ)
-
+```
 Thank You,
 
 Sanjay Shah
