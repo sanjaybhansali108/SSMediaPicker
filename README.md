@@ -3,13 +3,13 @@ SSMediaPickerHelper class helps you to take image and video easily without writi
 
 Just copy the SSMediaPickerHelper Class into your project.
 
-# Declare a variable with
+# Declare variable
 var ssMediaPickerHelper : SSMediaPickerHelper?
 
 and then just initialise it as per your where you want actionsheet picker.
 
 # Example
-# For Selecting an Image From Gallary or Camera
+# For Selecting Image From Gallary or Camera
 
  ``` 
  ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: false, imageCallback: { (image) in
@@ -28,7 +28,7 @@ and then just initialise it as per your where you want actionsheet picker.
 (https://drive.google.com/open?id=0B-B09f6zPznFeFFzZm5rWjdfTkU)
 (https://drive.google.com/open?id=0B-B09f6zPznFYkpWWkRxcU9xR2c)
 ```
-# For Selecting a Video From Gallary or Camera
+# For Selecting Video From Gallary or Camera
 
  ``` 
  ssMediaPickerHelper = SSMediaPickerHelper(viewController: self, isForVideo: true, imageCallback: nil, videoCallback: { (url) in
@@ -50,5 +50,4 @@ and then just initialise it as per your where you want actionsheet picker.
 (https://drive.google.com/open?id=0B-B09f6zPznFc1Vud0cwNndqeTQ)
 ```
 Thank You,
-
 Sanjay Shah
